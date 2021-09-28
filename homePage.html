@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Godwin Frank">
+        <title>Account Yangu</title>
+        <link rel="stylesheet" href="homePage.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="font.css">
+        <link rel="stylesheet" href="digitalClock.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                            <span class="title"><h2>Duka langu</h2></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <span class="title">Dash-bodi</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-cart-plus" aria-hidden="true"></i></span>
+                            <span class="title">Bidhaa</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                            <span class="title">Mahitaji</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                            <span class="title">Neno siri</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                            <span class="title">Setting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+                            <span class="title">Msaada</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+                            <span class="title">kutoka</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main">
+                <div class="topbar" >
+                    <div class="toggle" onclick="toggleMenu();"></div>
+                    <div class="search">
+                        <label for="">
+                            <input type="text" placeholder="tafuta hapa" name="" id="">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </label>
+                    </div>
+                        <div class="wrapper">
+                            <div class="display">
+                                 <div id="time"></div>
+                            </div>             
+                            <span></span>
+                            <span></span>
+                             <span></span>
+                        </div>
+                    <div class="user">
+                        <img src="image/download-_1_.jpg" alt="">
+                    </div>
+
+                </div>
+                
+                <div class="cardBox">
+                    <div class="card box">
+                        <div>
+                            <div class="numbers">80</div>
+                            <div class="cardNumber">Mauzo ya Mwezi</div>
+                        </div>
+                        <div class="iconBox">
+                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="card box">
+                        <div>
+                            <div class="numbers">1,00 Tsh</div>
+                            <div class="cardNumber">Matumizi ya Mwezi</div>
+                        </div>
+                        <div class="iconBox"
+                        
+                        >
+                            <i class="fa fa-money" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="card box">
+                        <div>
+                            <div class="numbers">1,042 Tsh</div>
+                            <div class="cardNumber">Mapato ya Mwezi</div>
+                        </div>
+                        <div class="iconBox">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="card box">
+                        <div>
+                            <div class="numbers">1,042</div>
+                            <div class="cardNumber">Maoni Juu ya Bidhaa</div>
+                        </div>
+                        <div class="iconBox">
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="details">
+                    <div class="recentOrders">
+                        <div class="cardHeader">
+                            <h2>Mauzo ya Siku </h2>
+                            <a  href="" class="btn box ">Jumla Kuu</a> <i class="fa fa-equal" aria-hidden="true"></i><span class="amount">Tsh 6000</span>
+                            <a href="" class="btn box"><i class="fa fa-plus" aria-hidden="true"></i>Ingiza hapa</a>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Jina</td>
+                                    <td>Kiasi cha bidhaa</td>
+                                    <td>Jumla</td>
+                                    <td>Baki</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Mchele13</td>
+                                    <td>kg1</td>
+                                    <td>1300Tsh</td>
+                                    <td><span class="status">Kg230</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Mchele14</td>
+                                    <td>kg3</td>
+                                    <td>1400Tsh</td>
+                                    <td><span class="status">Kg70</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Mchele15</td>
+                                    <td>4kg</td>
+                                    <td>1500Tsh</td>
+                                    <td><span class="status">Kg130</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Mchele16</td>
+                                    <td>kg6</td>
+                                    <td>1600Tsh</td>
+                                    <td><span class="status">Kg90</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Maharage</td>
+                                    <td>kg4</td>
+                                    <td>2800Tsh</td>
+                                    <td><span class="status">Kg70</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Mafuta</td>
+                                    <td>lita6</td>
+                                    <td>5500Tsh</td>
+                                    <td><span class="status">Litre30</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Unga-Dona</td>
+                                    <td>kg4</td>
+                                    <td>1000Tsh</td>
+                                    <td><span class="status">Kg15</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Unga-Sembe</td>
+                                    <td>kg6</td>
+                                    <td>1300Tsh</td>
+                                    <td><span class="status">Kg230</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="recentCustomers">
+                        <div class="cardHeader">
+                            <h2>Wadaiwa</h2>
+                            <a href="" class="btn box"><i class="fa fa-plus" aria-hidden="true"></i>Ingiza</a>
+                        </div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="homePage.js"></script>
+    </body>
+</html>

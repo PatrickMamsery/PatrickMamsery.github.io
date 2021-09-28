@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    margin-top: 10px;
+    background-image: url(image/photo7.jpg);
+    transition: 3s;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+            
+            
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+        
+@keyframes animate {
+     0%{
+         background-image: url(image/photo1.jpg);
+     }
+     20%{
+         background-image: url(image/photo2.jpg);
+     }
+     40%{
+         background-image: url(image/photo3.jpg);
+    }
+    60%{
+        background-image: url(image/photo4.jpg);
+    }
+    80%{
+        background-image: url(image/photo5.jpg);
+    }
+    100%{
+         background-image: url(image/photo6.jpg);
+    }
+}
